@@ -3,6 +3,10 @@ main {
     padding-bottom: 2rem;
 }
 
+.row {
+    margin-bottom: 0;
+}
+
 .equal-height-row {
     display: flex;
     flex-wrap: wrap;
@@ -10,6 +14,7 @@ main {
 
 .equal-height-col {
     display: flex;
+    margin-bottom: 1rem;
 }
 
 .equal-height-inner {
@@ -24,6 +29,7 @@ img {
 
 .progress {
     height: 2rem;
+    margin: 0.5rem 0;
 }
 
 #special-row div {
@@ -32,4 +38,26 @@ img {
 
 #special-row img {
     width: 50%;
+}
+
+.collection-item {
+    border: none !important;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+#radar-chart {
+    margin: 0 auto;
+    display: block;
+}
+
+#close-matches-list .collection-item {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+
+#close-matches-list .collection-item:last-child {
+    border-bottom: none !important;
 }
